@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="74dp"
         android:ems="10"
-        android:hint="Email"
+        android:hint="Ingresa tu Email"
         android:inputType="textEmailAddress" />
 
     <EditText
@@ -25,7 +25,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="171dp"
         android:ems="10"
-        android:hint="Password"
+        android:hint="Ingresa tu contraseña"
         android:inputType="textPassword" />
 
     <Switch
@@ -38,7 +38,7 @@
         android:layout_marginEnd="46dp"
         android:layout_marginRight="46dp"
         android:layout_marginBottom="212dp"
-        android:text="Remember" />
+        android:text="Recordar" />
 
     <Button
         android:id="@+id/buttonlogin"
@@ -47,5 +47,5 @@
         android:layout_alignTop="@+id/switch1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="31dp"
-        android:text="LOG IN" />
+        android:text="INGRESAR" />
 </RelativeLayout>
