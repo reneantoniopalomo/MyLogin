@@ -60,10 +60,10 @@ public class LoginActivity extends AppCompatActivity {
     }
         private boolean login(String email, String password){
             if (!IsValidEmail(email)){
-                Toast.makeText(this, "Email is not valid, please try again", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "Email no válido, ingrese otro", Toast.LENGTH_LONG).show();
                 return false;
             }else if(!IsValidPassword(password)){
-                Toast.makeText(this, "Password is not valid, 4 characters or more, please try again", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "Password no válido, ingrese 4 caracteres e intente de nuevo", Toast.LENGTH_LONG).show();
                 return false;
 
             }else{

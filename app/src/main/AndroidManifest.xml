@@ -11,18 +11,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Activities.MainActivity" />
-        <activity android:name=".Activities.LoginActivity"/>
-
+        <activity android:name=".Activities.LoginActivity" />
         <activity
             android:name=".Splash.SplashActivity"
             android:theme="@style/SplashScreen">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Activities.camisa1activity" />
+        <activity android:name=".Activities.Camisa2activity" />
+        <activity android:name=".Activities.Camisa3activity" />
+        <activity android:name=".Activities.Camisa4activity" />
+        <activity android:name=".Activities.Sueter1activity" />
+        <activity android:name=".Activities.Sueter2activity" />
+        <activity android:name=".Activities.Sueter3activity" />
+        <activity android:name=".Activities.Sueter4activity"></activity>
     </application>
 
 </manifest>
