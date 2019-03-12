@@ -28,7 +28,8 @@
         <activity android:name=".Activities.Sueter1activity" />
         <activity android:name=".Activities.Sueter2activity" />
         <activity android:name=".Activities.Sueter3activity" />
-        <activity android:name=".Activities.Sueter4activity"></activity>
+        <activity android:name=".Activities.Sueter4activity" />
+        <activity android:name=".Activities.menuproductos"></activity>
     </application>
 
 </manifest>
