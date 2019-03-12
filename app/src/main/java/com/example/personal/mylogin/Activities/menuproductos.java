@@ -12,4 +12,13 @@ public class menuproductos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menuproductos);
     }
+
+    public static class menucamisetas extends AppCompatActivity {
+
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_menucamisetas);
+        }
+    }
 }
